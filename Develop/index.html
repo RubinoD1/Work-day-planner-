@@ -24,14 +24,25 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h1 class="display-3">
+        Work Day Scheduler
+      </h1>
+      <p class="lead">
+        A simple calendar app for scheduling your work day
+      </p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
+    
+    <main class="container">
       <!-- Timeblocks go here -->
+      <div class = "row">
+        <h4 id = "timeblock-hour" class="col-lg-2 text-center">8 A.M. - 9 A.M.</h4>
+        <!--Name specefies a name for the text area-->
+          <textarea id="to-do-info" name="text-form" class="textarea col-lg-8">PLaceholder for testing</textarea>
+          <button id = "btn-create" class="col-lg-2">Create</button>
+      </div>
 
-    </div>
+    </main>
     
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
