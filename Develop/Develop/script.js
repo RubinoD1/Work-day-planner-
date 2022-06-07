@@ -18,19 +18,17 @@ function setColor(){
     var storeBlock = $(this);
     //convert string to number, so it can be compared to the current hour, that was also made into a number in "var trackHour"
     var timeBlockHr = parseInt(storeBlock.attr("id"));
-//        
+        
 if (timeBlockHr > trackHour){
-   
+//sets CSS style depending on the time-blocks relation to the current hour.    
     storeBlock.addClass("future");
     storeBlock.removeClass("present past");
 }
 if (timeBlockHr < trackHour){
-    
     storeBlock.addClass("past");
     storeBlock.removeClass("present future"); 
 }
 if (timeBlockHr == trackHour){
-    
     storeBlock.addClass("present");
     storeBlock.removeClass("past future");
 }
