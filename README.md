@@ -1,9 +1,9 @@
 # Work Day Scheduler Starter Code
 
 # Links
-GitHub repository:
+GitHub repository:https://github.com/RubinoD1/Work-day-planner-
 
-GitHub live page: 
+GitHub live page:https://rubinod1.github.io/Work-day-planner-/
 
 # General Notes
 - Created a JS file, so that the HTML doucment wouldn't get out of hand with all the code being added.
@@ -34,4 +34,8 @@ GitHub live page:
 
 # Screenshots
 
+![Live site screenshots](/assets/images/image1.png)
 
+![Live site screenshots](/assets/images/image2.png)
+
+![Live site screenshots](/assets/images/image3.png)
