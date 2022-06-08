@@ -9,14 +9,14 @@ var calenderSet = moment().format('MMMM Do YYYY, h:mm:ss a');
 currentDay.text(calenderSet);
 
 
-//format for the moment.js hour to be used in detrmining if the hour is in the past, present, or future on the schedule
+//format for the moment.js hour to be used in detrmining if the hour is in the past, present, or future on the schedule.
 //using parse to convert the string into a number
 var trackHour = parseInt(moment().format("H"));
 
 
 //function to set the time-block colors.
 function setColor(){
-    scheduleHour.each(function() {
+  scheduleHour.each(function() {
     var storeBlock = $(this);
     //convert string to number, so it can be compared to the current hour.
     var timeBlockHr = parseInt(storeBlock.attr("id"));
