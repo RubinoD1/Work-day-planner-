@@ -50,7 +50,7 @@ $(".saveBtn").on("click", function () {
      localStorage.setItem(timeblockHr, textConent);
 });
 
-//load LocalStorage, for the schedule we need the text that was inputted into the textarea of the HTML and the corresponding time-block.  
+//load localStorage, for the schedule we need the text that was inputted into the textarea of the HTML and the corresponding time-block.  
 var loadInfo =function() {
     $("#8 .text-save").val(localStorage.getItem("8"));
     $("#9 .text-save").val(localStorage.getItem("9"));
