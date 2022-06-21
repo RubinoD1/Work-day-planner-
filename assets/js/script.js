@@ -26,12 +26,12 @@ if (timeBlockHr > trackHour)
     storeBlock.addClass("future");
     storeBlock.removeClass("present past");
 
-} else (timeBlockHr < trackHour)
+} if (timeBlockHr < trackHour)
 {
     storeBlock.addClass("past");
     storeBlock.removeClass("present future"); 
 
-} (timeBlockHr == trackHour)
+} if (timeBlockHr == trackHour)
 {
     storeBlock.addClass("present");
     storeBlock.removeClass("past future");
