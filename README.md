@@ -1,4 +1,4 @@
-# Work Day Scheduler Starter Code
+# Work Day Planner
 
 # Links
 GitHub repository:https://github.com/RubinoD1/Work-day-planner-
