@@ -1,19 +1,10 @@
-//Links to the "id = currentDay" in the HTML, so the calender can be set to display as its text on screen. 
-//const currentDay = $("#currentDay");
 //Links to the "time-block" class 
 const scheduleHour = $(".time-block");
 
-//sets the format of the calender to be displayed in the header using moment.js
-//const calenderSet = moment().format('MMMM Do YYYY, h:mm:ss a');
-
-//sets the text in the HTML document with the moment.js calender defined by var calenderSet 
-//currentDay.text(calenderSet);
-
+//updates the HTML of the #currentDay in the header to the current time. Set to 1000 millisecond interval (1 sec). 
 function clockUpdate() {
     document.querySelector("#currentDay").innerHTML = `<h2>${moment().format('MMMM Do YYYY, h:mm:ss a')} </h2>`;
 }
-
-
 
 //format for the moment.js hour to be used in detrmining if the hour is in the past, present, or future on the schedule.
 //using parse to convert the string into a number
@@ -73,7 +64,7 @@ var loadInfo =function() {
 loadInfo(); // local storage 
 setColor(); //updates the time block css based on time of day 
 clockUpdate(); //sets the date/time in the header based on the current time.  
-setInterval(clockUpdate, 1000); //timer to update the time in the HTML in real time. 
+setInterval(clockUpdate, 1000); //timer to update the time in the HTML in real time. 1000 milliseconds = 1 second. 
 
 
 
