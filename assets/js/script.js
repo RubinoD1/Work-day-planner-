@@ -65,7 +65,7 @@ loadInfo(); // local storage
 setColor(); //updates the time block css based on time of day 
 clockUpdate(); //sets the date/time in the header based on the current time.  
 setInterval(clockUpdate, 1000); //timer to update the time in the HTML in real time. 1000 milliseconds = 1 second. 
-setInterval(setColor, 60000); //checks the current time every minute to update the time block colors if neeeded. 
+setInterval(setColor, 1000); //checks the current time every minute to update the time block colors if neeeded. 
 
 
 
