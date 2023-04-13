@@ -48,8 +48,16 @@ $(".saveBtn").on("click", function () {
      localStorage.setItem(timeblockHr, textConent);
 });
 
-//load localStorage, for the schedule we need the text that was inputted into the textarea of the HTML and the corresponding time-block.  
-var loadInfo =function() {
+//load localStorage 
+function loadInfo() {
+    $("#0 .text-save").val(localStorage.getItem("0"));
+    $("#1 .text-save").val(localStorage.getItem("1"));
+    $("#2 .text-save").val(localStorage.getItem("2"));
+    $("#3 .text-save").val(localStorage.getItem("3"));
+    $("#4 .text-save").val(localStorage.getItem("4"));
+    $("#5 .text-save").val(localStorage.getItem("5"));
+    $("#6 .text-save").val(localStorage.getItem("6"));
+    $("#7 .text-save").val(localStorage.getItem("7"));
     $("#8 .text-save").val(localStorage.getItem("8"));
     $("#9 .text-save").val(localStorage.getItem("9"));
     $("#10 .text-save").val(localStorage.getItem("10"));
@@ -59,8 +67,14 @@ var loadInfo =function() {
     $("#14 .text-save").val(localStorage.getItem("14"));
     $("#15 .text-save").val(localStorage.getItem("15"));
     $("#16 .text-save").val(localStorage.getItem("16"));
+    $("#17 .text-save").val(localStorage.getItem("17"));
+    $("#18 .text-save").val(localStorage.getItem("18"));
+    $("#19 .text-save").val(localStorage.getItem("19"));
+    $("#20 .text-save").val(localStorage.getItem("20"));
+    $("#21 .text-save").val(localStorage.getItem("21"));
+    $("#22 .text-save").val(localStorage.getItem("22"));
+    $("#23 .text-save").val(localStorage.getItem("23"));
 };
-
 
 
 loadInfo(); // local storage 
