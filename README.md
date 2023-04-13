@@ -6,11 +6,25 @@ GitHub repository:https://github.com/RubinoD1/Work-day-planner-
 GitHub live page:https://rubinod1.github.io/Work-day-planner-/
 
 # Introduction
-- I used Bootstap for the adjustable break points that media queries would normally do in the CSS, "row, col-sm , col-md, col-lg", etc.  
 
-# Features / Technologies 
+Works Day Planner is a JavaScript built day planner that allows a user to plan their work day by assigning tasks to timeblocks throughout the day. 
+
+# Features
+
+- Dynamically updating date and time in the site's header. 
+- Timeblocks are color coded based on the time of day: Green = future, Red = Present, Grey = past. 
+- Uses local storage to save user entries. 
+
+
+# Technoligies 
+- HTML / CSS
+- JavaScript 
+- Bootstrap 
+- Moment.JS
 
 # Liscence
+
+MIT 
 
 # Screenshots
 
