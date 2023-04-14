@@ -5,7 +5,7 @@ GitHub repository:https://github.com/RubinoD1/Work-day-planner-
 
 GitHub live page:https://rubinod1.github.io/Work-day-planner-/
 
-# Introduction
+# Introduction 
 
 Works Day Planner is a JavaScript-built day planner that allows a user to plan their work day by assigning tasks to time blocks throughout the day. 
 
